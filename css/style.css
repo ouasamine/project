@@ -1,21 +1,51 @@
 body {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+h5 {
+    padding-bottom: 2rem;
+    font-weight: bolder;
+}
+
+.story-header {
+    margin-top: 3rem;
+    font-weight: bolder;
+}
+
 .background{
     background-color: rgb(228, 225, 225);
     padding-top: 15px;
     margin: 0px 10px;
     border-radius: 5px ;
 }
+
 header{
     margin-top: 30px;
 }
+
 .img-desc{
     margin-top: 10px;
 }
+
 .poster{
     background-color: white;
     margin:0px 20px;
     padding: 5px 0px;
+}
+
+.stories {
+    text-align: left;
+    padding: 5% 30%;
+}
+
+.quote {
+    font-style: italic;
+    padding: 2% 30%;
+    text-align: left;
+}
+
+.stories li {
+    margin-bottom: 20px;
 }
